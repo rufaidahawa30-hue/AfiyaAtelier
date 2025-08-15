@@ -1,32 +1,80 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Afiya Atelier</title>
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<header>
-    <h1>Afiya Atelier</h1>
-    <p>Elegance in Every Petal</p>
+<!doctype html><html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Afiya Atelier — Florist & Custom Gifts</title>
+<meta name="description" content="Afiya Atelier: florist & custom gifts bergaya elegan, mewah, fairy & nature. Pengiriman same-day Jakarta.">
+<link rel="preload" as="image" href="assets/img/wallpaper bunga aesthetic.webp">
+<link rel="stylesheet" href="assets/css/style.min.css">
+</head><body>
+<div class="topbar"><div class="container"><span>✨ Pengiriman same-day Jakarta • Buka 08.00–20.00</span><div><a class="link" href="#contact">Kontak</a><a class="link" href="#cart">Keranjang</a></div></div></div>
+<header class="header container">
+  <div class="brand">
+    <img src="assets/img/ChatGPT Image Aug 15, 2025, 08_26_46 AM.webp" alt="Logo Afiya Atelier" class="logo" loading="eager">
+    <div><h1>Afiya Atelier</h1><p>Florist & Custom Gifts</p></div>
+  </div>
+  <nav class="nav">
+    <a href="#hero">Beranda</a><a href="#bestsellers">Terlaris</a><a href="#catalog">Katalog</a><a href="#testimoni">Testimoni</a><a href="#contact">Kritik & Saran</a>
+  </nav>
+  <button id="cartButton" class="cart-button" aria-label="Buka keranjang"><span class="cart-count" id="cartCount">0</span>🛍️</button>
 </header>
-<main>
-    <section class="products">
-        <h2>Produk Terlaris</h2>
-        <div class="grid">
-            <img src="assets/img/ChatGPT Image Aug 15, 2025, 08_26_46 AM.webp" alt="Produk 1">
-            <img src="assets/img/wallpaper bunga aesthetic.webp" alt="Produk 2">
-            <img src="assets/img/12e94214-8080-43af-954f-1fc3d89ca77b.webp" alt="Produk 3">
-            <img src="assets/img/7805bcff-3c28-4c7e-ac0a-cf151f992cd8.webp" alt="Produk 4">
-            <img src="assets/img/1473c6d8-b9fb-4827-afd1-9d97d487def9.webp" alt="Produk 5">
-        </div>
-    </section>
-</main>
-<footer>
-    <p>Hubungi kami di WhatsApp: <a href="https://wa.me/6281234567890">Klik di sini</a></p>
-</footer>
-<script src="assets/js/app.js"></script>
-</body>
-</html>
+<section id="hero" class="hero"><div class="container hero-inner">
+  <div>
+    <h2>Elegan • Mewah • Fairy & Nature</h2>
+    <p>Kreasi buket bunga & hampers kado yang estetik untuk setiap momen spesial. Sentuhan rose‑gold yang lembut & hangat.</p>
+    <div class="cta"><a href="#catalog" class="btn primary">Jelajahi Katalog</a><a href="#bestsellers" class="btn ghost">Produk Terlaris</a></div>
+    <div class="address">📍 jl. bougenvil no.15, jakarta • <a class="link" href="https://maps.google.com/?q=jl.+bougenvil+no.15,+jakarta" target="_blank" rel="noopener">Lihat peta</a></div>
+  </div>
+  <div class="spark"><img src="assets/img/wallpaper bunga aesthetic.webp" alt="Buket bunga aesthetic" class="hero-img" loading="eager"></div>
+</div></section>
+<section id="bestsellers" class="section container">
+  <div class="section-head"><h3>Produk Terlaris</h3><p>Pilihan favorit pelanggan — selalu fresh dan wangi.</p></div>
+  <div class="slider" data-slider>
+    <button class="slider-nav prev" data-prev aria-label="Sebelumnya">‹</button>
+    <div class="slides" data-slides>
+      <div class="slide"><img loading="lazy" src="assets/img/d71f67e3-df1c-44f2-a037-1ab4d9fc8d22.webp" alt="Mawar Pink Premium"><div class="slide-meta"><h4>Mawar Pink Premium</h4><p>IDR 650.000</p><button class="btn add" data-product='{"id":"p1","name":"Mawar Pink Premium","price":650000,"img":"assets/img/d71f67e3-df1c-44f2-a037-1ab4d9fc8d22.webp"}'>+ Keranjang</button></div></div>
+      <div class="slide"><img loading="lazy" src="assets/img/1473c6d8-b9fb-4827-afd1-9d97d487def9.webp" alt="Basket Sunshine Garden"><div class="slide-meta"><h4>Basket Sunshine Garden</h4><p>IDR 590.000</p><button class="btn add" data-product='{"id":"p2","name":"Basket Sunshine Garden","price":590000,"img":"assets/img/1473c6d8-b9fb-4827-afd1-9d97d487def9.webp"}'>+ Keranjang</button></div></div>
+      <div class="slide"><img loading="lazy" src="assets/img/12e94214-8080-43af-954f-1fc3d89ca77b.webp" alt="Newspaper Chic Bouquet"><div class="slide-meta"><h4>Newspaper Chic Bouquet</h4><p>IDR 520.000</p><button class="btn add" data-product='{"id":"p3","name":"Newspaper Chic Bouquet","price":520000,"img":"assets/img/12e94214-8080-43af-954f-1fc3d89ca77b.webp"}'>+ Keranjang</button></div></div>
+      <div class="slide"><img loading="lazy" src="assets/img/26851bcc-a4a0-4bc1-a064-a427ab36a67f.webp" alt="Studio Pastel Selection"><div class="slide-meta"><h4>Studio Pastel Selection</h4><p>IDR 480.000</p><button class="btn add" data-product='{"id":"p4","name":"Studio Pastel Selection","price":480000,"img":"assets/img/26851bcc-a4a0-4bc1-a064-a427ab36a67f.webp"}'>+ Keranjang</button></div></div>
+      <div class="slide"><img loading="lazy" src="assets/img/7805bcff-3c28-4c7e-ac0a-cf151f992cd8.webp" alt="Rose & Lily Harmony"><div class="slide-meta"><h4>Rose & Lily Harmony</h4><p>IDR 630.000</p><button class="btn add" data-product='{"id":"p5","name":"Rose & Lily Harmony","price":630000,"img":"assets/img/7805bcff-3c28-4c7e-ac0a-cf151f992cd8.webp"}'>+ Keranjang</button></div></div>
+    </div>
+    <button class="slider-nav next" data-next aria-label="Berikutnya">›</button>
+  </div>
+</section>
+<section id="catalog" class="section container">
+  <div class="section-head"><h3>Katalog</h3><p>Pilih buket atau hampers, lalu tambahkan kartu ucapan & warna pita favoritmu.</p></div>
+  <div class="grid">
+    <article class="card"><img loading="lazy" src="assets/img/d71f67e3-df1c-44f2-a037-1ab4d9fc8d22.webp" alt="Mawar Juliet Rosé"><div class="card-body"><h4>Mawar Juliet Rosé</h4><p class="price">IDR 550.000</p><button class="btn add" data-product='{"id":"c1","name":"Mawar Juliet Rosé","price":550000,"img":"assets/img/d71f67e3-df1c-44f2-a037-1ab4d9fc8d22.webp"}'>Tambah ke Keranjang</button></div></article>
+    <article class="card"><img loading="lazy" src="assets/img/1473c6d8-b9fb-4827-afd1-9d97d487def9.webp" alt="Wicker Pastel Basket"><div class="card-body"><h4>Wicker Pastel Basket</h4><p class="price">IDR 590.000</p><button class="btn add" data-product='{"id":"c2","name":"Wicker Pastel Basket","price":590000,"img":"assets/img/1473c6d8-b9fb-4827-afd1-9d97d487def9.webp"}'>Tambah ke Keranjang</button></div></article>
+    <article class="card"><img loading="lazy" src="assets/img/12e94214-8080-43af-954f-1fc3d89ca77b.webp" alt="Newspaper Mauve"><div class="card-body"><h4>Newspaper Mauve</h4><p class="price">IDR 520.000</p><button class="btn add" data-product='{"id":"c3","name":"Newspaper Mauve","price":520000,"img":"assets/img/12e94214-8080-43af-954f-1fc3d89ca77b.webp"}'>Tambah ke Keranjang</button></div></article>
+    <article class="card"><img loading="lazy" src="assets/img/26851bcc-a4a0-4bc1-a064-a427ab36a67f.webp" alt="Studio Pastel Mix"><div class="card-body"><h4>Studio Pastel Mix</h4><p class="price">IDR 480.000</p><button class="btn add" data-product='{"id":"c4","name":"Studio Pastel Mix","price":480000,"img":"assets/img/26851bcc-a4a0-4bc1-a064-a427ab36a67f.webp"}'>Tambah ke Keranjang</button></div></article>
+    <article class="card"><img loading="lazy" src="assets/img/7805bcff-3c28-4c7e-ac0a-cf151f992cd8.webp" alt="Rose Lily Harmony"><div class="card-body"><h4>Rose Lily Harmony</h4><p class="price">IDR 630.000</p><button class="btn add" data-product='{"id":"c5","name":"Rose Lily Harmony","price":630000,"img":"assets/img/7805bcff-3c28-4c7e-ac0a-cf151f992cd8.webp"}'>Tambah ke Keranjang</button></div></article>
+  </div>
+</section>
+<section id="testimoni" class="section container">
+  <div class="section-head"><h3>Testimoni Pelanggan</h3><p>Kata manis dari pelanggan 🌸</p></div>
+  <div class="testimonials">
+    <figure class="t-card"><blockquote>“Bunganya fresh, rapi, dan wanginya lembut banget. Pacar aku super suka!”</blockquote><figcaption>— Dina, Jakarta</figcaption></figure>
+    <figure class="t-card"><blockquote>“Pelayanan cepat, desainnya elegan. Cocok untuk corporate gift.”</blockquote><figcaption>— Malik, Kemang</figcaption></figure>
+    <figure class="t-card"><blockquote>“Foto real sama hasilnya, bahkan lebih cantik aslinya. Recommended!”</blockquote><figcaption>— Sari, Tebet</figcaption></figure>
+  </div>
+</section>
+<section id="contact" class="section container">
+  <div class="section-head"><h3>Kritik & Saran</h3><p>Kami selalu ingin lebih baik untukmu. Tinggalkan pesan ya ✨</p></div>
+  <form id="feedbackForm" class="form">
+    <div class="grid-2">
+      <label>Nama<input type="text" name="name" placeholder="Nama kamu" required></label>
+      <label>Email<input type="email" name="email" placeholder="email@contoh.com" required></label>
+    </div>
+    <label>Pesan<textarea name="message" rows="5" placeholder="Tulis kritik & saran..." required></textarea></label>
+    <div class="form-actions"><button type="submit" class="btn primary">Kirim</button>
+      <small class="muted">Atau email: <a href="mailto:hello@afiyaatelier.id">hello@afiyaatelier.id</a></small>
+    </div>
+  </form>
+</section>
+<footer class="footer"><div class="container foot-inner">
+  <div><h4>Afiya Atelier</h4><p>📍 jl. bougenvil no.15, jakarta</p></div>
+  <div class="socials"><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a> • <a href="https://wa.me/6281234567890" target="_blank" rel="noopener">WhatsApp</a> • <a href="#" target="_blank" rel="noopener">TikTok</a></div>
+  <div class="tiny">© <span id="year"></span> Afiya Atelier — crafted with love.</div>
+</div></footer>
+<aside id="cartDrawer" class="cart"><div class="cart-head"><h4>Keranjang</h4><button class="close" id="closeCart" aria-label="Tutup">×</button></div><ul id="cartItems" class="cart-items"></ul><div class="cart-foot"><div class="cart-total">Total: <span id="cartTotal">IDR 0</span></div><button id="checkoutBtn" class="btn primary full">Checkout</button></div></aside>
+<script src="assets/js/app.min.js" defer></script>
+</body></html>
